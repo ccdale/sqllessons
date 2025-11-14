@@ -24,7 +24,7 @@ additional libraries.
 * Fetch the results
 * Close the connection
 
-Take a look at the file [db.py](../jestbd/db.py) for a simple implementation of
+Take a look at the file [db.py](../src/sqllessons/db.py) for a simple implementation of
 a hand-written SQL class to interact with a SQLite database. It is simple but
 not very user-friendly. You'll still have to construct SQL statements in the
 code before passing them in - see [test_db.py](../tests/test_db.py) for what I
